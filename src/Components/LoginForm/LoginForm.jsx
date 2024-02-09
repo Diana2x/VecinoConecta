@@ -22,7 +22,7 @@ const LoginForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (username === 'Diana' && password === 'abcd1234') {
-            navigate('/dashboard');
+            navigate('/home');
 
         } else {
             setError('Invalid username or password');
