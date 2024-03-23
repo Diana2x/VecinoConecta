@@ -1,0 +1,94 @@
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.heading{
+    margin: 10rem 0 5rem;
+    font-weight: bold;
+}
+
+.galeria-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  @media (min-width: 1080px) {
+    .galeria-content {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .galeria-content .galeria-imagen img {
+    height: 30rem;
+    width: 30rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  @media (min-width: 1080px) {
+    .galeria-content .galeria-imagen:nth-child(1) {
+      grid-row: 1/3;
+    }
+    .galeria-content .galeria-imagen:nth-child(1) img {
+      height: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(2) {
+      grid-column: 2/4;
+    }
+    .galeria-content .galeria-imagen:nth-child(2) img {
+      width: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(4) {
+      grid-row: 2/4;
+    }
+    .galeria-content .galeria-imagen:nth-child(4) img {
+      height: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(5) {
+      grid-column: 3/5;
+    }
+    .galeria-content .galeria-imagen:nth-child(5) img {
+      width: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(6) {
+      grid-column: 3/5;
+    }
+    .galeria-content .galeria-imagen:nth-child(6) img {
+      width: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(7) {
+      grid-row: 3/5;
+    }
+    .galeria-content .galeria-imagen:nth-child(7) img {
+      height: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(8) {
+      grid-column: 2/5;
+    }
+    .galeria-content .galeria-imagen:nth-child(8) img {
+      width: 94rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(9) {
+      grid-column: 1/3;
+    }
+    .galeria-content .galeria-imagen:nth-child(9) img {
+      width: 62rem;
+    }
+    .galeria-content .galeria-imagen:nth-child(10) {
+      grid-column: 3/5;
+    }
+    .galeria-content .galeria-imagen:nth-child(10) img {
+      width: 62rem;
+    }
+  }
