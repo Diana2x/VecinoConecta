@@ -1,0 +1,29 @@
+:root {
+  --greenbackground:  #AAFFC7;
+  --greenmedium: #5FCC9C;
+  --darkgreen: #215B63;
+  --blue: #232855; 
+  --white: #FFFFFF;
+  --red: #FF5A5F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--greenbackground);
+  overflow-x: hidden;
+}
+
+

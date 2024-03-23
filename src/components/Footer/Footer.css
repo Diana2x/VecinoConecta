@@ -1,0 +1,42 @@
+:root {
+  --greenbackground:  #AAFFC7;
+  --greenmedium: #5FCC9C;
+  --darkgreen: #215B63;
+  --blue: #232855; 
+  --white: #FFFFFF;
+  --red: #FF5A5F;
+}
+
+.footer {
+  height: 8vh;
+  width: 100%;
+  background-color: var(--blue);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container h3{
+  margin-bottom: 1rem;
+}
+
+.footer .social {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.footer .icon {
+ color: var(--white);
+ font-size: large;
+}
+
+
+
+

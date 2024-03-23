@@ -1,0 +1,76 @@
+:root {
+  --greenbackground:  #AAFFC7;
+  --greenmedium: #5FCC9C;
+  --darkgreen: #215B63;
+  --blue: #232855; 
+  --white: #FFFFFF;
+  --red: #FF5A5F;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: var(--blue);
+  padding: 20px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  font-size: 16px;
+
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+.bell{
+  color: var(--red);
+}
+.nav-link:hover {
+  color: greenyellow
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  font-size: 16px;
+}
+.logo-nav p{
+  margin-left: 10px;
+  text-align: center;
+}
