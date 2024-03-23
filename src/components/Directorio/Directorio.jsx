@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
+import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import './Directorio.css'
 function Directorio() {
   return (
     <div className='directorio'>
       <Navbar/>
       <div className='directorio-contenido'>
-        <h1>Lista de Contactos Vecino Conecta</h1>
+        <h1>Lista de Contactos Vecino Conecta <BsFillTelephoneForwardFill /></h1>
         <p>Aquí puedes encontrar los contactos actuales de Vecino Conecta </p>
         <table>
             <thead>
@@ -187,18 +188,6 @@ function Directorio() {
                 </tr>
                 
             </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="pic"><img src="http://placekitten.com/g/200/300" alt="nombre" /></div>
-                    </td>
-                    <td>Nombre</td>
-                    <td>Apellido</td>
-                    <td>770 456 2345</td>
-                    <td>nombreactual@empresa.com</td>
-                    <td>Atlanta, GA</td>
-                </tr>
-            </tbody>
         </table>
       </div>
       <Footer/>
