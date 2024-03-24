@@ -11,7 +11,7 @@ function Galeria() {
       <div className="galeria-content contenedor">
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
