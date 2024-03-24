@@ -15,39 +15,39 @@ function Galeria() {
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino1.jpeg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino2.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino3.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino4.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino5.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino6.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino7.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino8.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="/assets/vecino.jpg" alt="" />
+          <img src="public/assets/vecino9.jpg" alt="" />
         </div>
       </div>
       <Footer />

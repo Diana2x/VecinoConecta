@@ -17,6 +17,7 @@ img{
 
 .heading{
     margin: 10rem 0 5rem;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -24,6 +25,7 @@ img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin-bottom: 50px;
   }
   @media (min-width: 1080px) {
     .galeria-content {
