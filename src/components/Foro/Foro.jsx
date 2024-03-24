@@ -1,12 +1,11 @@
-import React from 'react'
-
-import './Foro.css';
-
+import React from 'react';
+import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-
+import './Foro.css';
 function Foro() {
   return (
     <div className='Foro'>
+      <Navbar />
       <div className="container">
       <div className="jumbotron">
           <h1>Foro de Comunicación - Los Robles</h1>
