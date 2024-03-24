@@ -1,10 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import './Galeria.css';
-import imagenComunidad from '/assets/comunidad.jpeg';
-import imageJunta from '/assets/junta.jpg';
-import imagesNoticias from '/assets/noticias.jpg';
-import imagesChat from '/assets/chat.jpg';
 import Footer from '../Footer/Footer';
 
 function Galeria() {
@@ -15,45 +11,46 @@ function Galeria() {
       <div className="galeria-content contenedor">
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
 
         <div className="galeria-imagen">
-          <img src="public/assets/vecino.jpg" alt="" />
+          <img src="/assets/vecino.jpg" alt="" />
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
