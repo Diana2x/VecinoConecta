@@ -173,8 +173,7 @@ function Foro() {
                   </div>
               </div>
           </div>
-      </div>
-      <div className="newPost">
+          <div className="newPost">
         <form action="newPost.php" method="post">
           <h3>Nuevo Post</h3>
           <input type="text" name="title" placeholder="Título" className="inputTitle"/>
@@ -182,9 +181,10 @@ function Foro() {
           <button type="submit" className="btn">Publicar</button>
         </form>
       </div>
+      </div>
   </div>
+  <Footer/>
     </div>
   );
 };
-<Footer />
 export default Foro
