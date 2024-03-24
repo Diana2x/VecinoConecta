@@ -14,7 +14,7 @@ function Directorio() {
             <thead>
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/210/300" alt="María Rodríguez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/210/300" alt="María Rodríguez" /></div>
                     </td>
                     <td>María</td>
                     <td>Rodríguez</td>
@@ -25,7 +25,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/215/300" alt="Carlos Pérez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/215/300" alt="Carlos Pérez" /></div>
                     </td>
                     <td>Carlos</td>
                     <td>Pérez</td>
@@ -36,7 +36,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/220/300" alt="Laura Gómez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/220/300" alt="Laura Gómez" /></div>
                     </td>
                     <td>Laura</td>
                     <td>Gómez</td>
@@ -47,7 +47,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/225/300" alt="Javier Martínez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/225/300" alt="Javier Martínez" /></div>
                     </td>
                     <td>Javier</td>
                     <td>Martínez</td>
@@ -58,7 +58,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/230/300" alt="Ana López" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/230/300" alt="Ana López" /></div>
                     </td>
                     <td>Ana</td>
                     <td>López</td>
@@ -69,7 +69,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/235/300" alt="Ricardo Hernández" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/235/300" alt="Ricardo Hernández" /></div>
                     </td>
                     <td>Ricardo</td>
                     <td>Hernández</td>
@@ -80,7 +80,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/240/300" alt="Sofía García" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/240/300" alt="Sofía García" /></div>
                     </td>
                     <td>Sofía</td>
                     <td>García</td>
@@ -91,7 +91,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/245/300" alt="Alejandro Fernández" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/245/300" alt="Alejandro Fernández" /></div>
                     </td>
                     <td>Alejandro</td>
                     <td>Fernández</td>
@@ -102,7 +102,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/250/300" alt="Gabriela Silva" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/250/300" alt="Gabriela Silva" /></div>
                     </td>
                     <td>Gabriela</td>
                     <td>Silva</td>
@@ -113,7 +113,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/255/300" alt="Fernando Castro" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/255/300" alt="Fernando Castro" /></div>
                     </td>
                     <td>Fernando</td>
                     <td>Castro</td>
@@ -123,7 +123,7 @@ function Directorio() {
                 </tr>
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/210/300" alt="María Rodríguez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/210/300" alt="María Rodríguez" /></div>
                     </td>
                     <td>María</td>
                     <td>Rodríguez</td>
@@ -134,7 +134,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/215/300" alt="Carlos Pérez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/215/300" alt="Carlos Pérez" /></div>
                     </td>
                     <td>Carlos</td>
                     <td>Pérez</td>
@@ -145,7 +145,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/220/300" alt="Laura Gómez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/220/300" alt="Laura Gómez" /></div>
                     </td>
                     <td>Laura</td>
                     <td>Gómez</td>
@@ -156,7 +156,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/225/300" alt="Javier Martínez" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/225/300" alt="Javier Martínez" /></div>
                     </td>
                     <td>Javier</td>
                     <td>Martínez</td>
@@ -167,7 +167,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/230/300" alt="Ana López" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/230/300" alt="Ana López" /></div>
                     </td>
                     <td>Ana</td>
                     <td>López</td>
@@ -178,7 +178,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div class="pic"><img src="http://placekitten.com/g/235/300" alt="Ricardo Hernández" /></div>
+                        <div className="pic"><img src="http://placekitten.com/g/235/300" alt="Ricardo Hernández" /></div>
                     </td>
                     <td>Ricardo</td>
                     <td>Hernández</td>
