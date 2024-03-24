@@ -1,10 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import './Galeria.css';
-import imagenComunidad from '/assets/comunidad.jpeg';
-import imageJunta from '/assets/junta.jpg';
-import imagesNoticias from '/assets/noticias.jpg';
-import imagesChat from '/assets/chat.jpg';
 import Footer from '../Footer/Footer';
 
 function Galeria() {
