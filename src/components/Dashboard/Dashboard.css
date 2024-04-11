@@ -20,6 +20,7 @@
 .img-comunidad{
   border-radius: 15px;
   width: 50vw;
+  min-width: 500px;
 }
 
 .dashboard-content {
@@ -67,11 +68,20 @@
 
 .actividades__grid {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .actividades__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+}
+
 .actividad {
-  width: calc(33.33% - 20px);
   background-color: var(--white);
   border-radius: 8px;
   padding: 20px;
