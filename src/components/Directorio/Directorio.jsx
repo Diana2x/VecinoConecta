@@ -14,7 +14,7 @@ function Directorio() {
             <thead>
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/210/300" alt="María Rodríguez" /></div>
+                        <div className="pic"><img src="../assets/maria.jpg" alt="María Rodríguez" /></div>
                     </td>
                     <td>María</td>
                     <td>Rodríguez</td>
@@ -25,7 +25,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/215/300" alt="Carlos Pérez" /></div>
+                        <div className="pic"><img src="../assets/jc.jpg" alt="Carlos Pérez" /></div>
                     </td>
                     <td>Carlos</td>
                     <td>Pérez</td>
@@ -36,7 +36,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/220/300" alt="Laura Gómez" /></div>
+                        <div className="pic"><img src="../assets/laura.jpg" alt="Laura Gómez" /></div>
                     </td>
                     <td>Laura</td>
                     <td>Gómez</td>
@@ -47,7 +47,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/225/300" alt="Javier Martínez" /></div>
+                        <div className="pic"><img src="../assets/javier.jpg" alt="Javier Martínez" /></div>
                     </td>
                     <td>Javier</td>
                     <td>Martínez</td>
@@ -58,7 +58,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/230/300" alt="Ana López" /></div>
+                        <div className="pic"><img src="../assets/lopez.jpg" alt="Ana López" /></div>
                     </td>
                     <td>Ana</td>
                     <td>López</td>
@@ -69,7 +69,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/235/300" alt="Ricardo Hernández" /></div>
+                        <div className="pic"><img src="../assets/ricardo.jpg" alt="Ricardo Hernández" /></div>
                     </td>
                     <td>Ricardo</td>
                     <td>Hernández</td>
@@ -80,7 +80,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/240/300" alt="Sofía García" /></div>
+                    <div className="pic"><img src="../assets/sofia.png" alt="Sofía" /></div>
                     </td>
                     <td>Sofía</td>
                     <td>García</td>
@@ -91,7 +91,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/245/300" alt="Alejandro Fernández" /></div>
+                        <div className="pic"><img src="../assets/alejandro.jpg" alt="Alejandro Fernández" /></div>
                     </td>
                     <td>Alejandro</td>
                     <td>Fernández</td>
@@ -102,7 +102,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/250/300" alt="Gabriela Silva" /></div>
+                        <div className="pic"><img src="../assets/mistral.jpg" alt="Gabriela Silva" /></div>
                     </td>
                     <td>Gabriela</td>
                     <td>Silva</td>
@@ -113,7 +113,7 @@ function Directorio() {
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/255/300" alt="Fernando Castro" /></div>
+                        <div className="pic"><img src="../assets/fernando.jpg" alt="Fernando Castro" /></div>
                     </td>
                     <td>Fernando</td>
                     <td>Castro</td>
@@ -123,68 +123,68 @@ function Directorio() {
                 </tr>
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/210/300" alt="María Rodríguez" /></div>
+                        <div className="pic"><img src="../assets/jensen.jpg" alt="Jensen Ackles" /></div>
                     </td>
-                    <td>María</td>
-                    <td>Rodríguez</td>
+                    <td>Jensen</td>
+                    <td>Ackles</td>
                     <td>555 345 6789</td>
-                    <td>maria.rodriguez@example.com</td>
-                    <td>México DF, México</td>
+                    <td>jensen.ackles@example.com</td>
+                    <td>Dallas, Texas</td>
                 </tr>
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/215/300" alt="Carlos Pérez" /></div>
+                        <div className="pic"><img src="../assets/mario.jpg" alt="Mario Benedetti" /></div>
                     </td>
-                    <td>Carlos</td>
-                    <td>Pérez</td>
+                    <td>Mario</td>
+                    <td>Benedetti</td>
                     <td>555 456 7890</td>
-                    <td>carlos.perez@example.com</td>
-                    <td>Caracas, Venezuela</td>
+                    <td>mario.benedetti@example.com</td>
+                    <td>Montevideo, Uruguay</td>
                 </tr>
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/220/300" alt="Laura Gómez" /></div>
+                        <div className="pic"><img src="../assets/gabriel.jpeg" alt="Gabriel García"Laura Góm /></div>
                     </td>
-                    <td>Laura</td>
-                    <td>Gómez</td>
+                    <td>Gabriel</td>
+                    <td>García</td>
                     <td>555 567 8901</td>
-                    <td>laura.gomez@example.com</td>
-                    <td>Lima, Perú</td>
+                    <td>gabriel.garcia@example.com</td>
+                    <td>Bogotá, Colombia</td>
                 </tr>
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/225/300" alt="Javier Martínez" /></div>
+                        <div className="pic"><img src="../assets/felipe.jpg" alt="Javier Martínez" /></div>
                     </td>
-                    <td>Javier</td>
-                    <td>Martínez</td>
+                    <td>Felipe</td>
+                    <td>Amor</td>
                     <td>555 678 9012</td>
-                    <td>javier.martinez@example.com</td>
-                    <td>Santiago, Chile</td>
+                    <td>primigenio.inmortal@example.com</td>
+                    <td>Providence, USA</td>
                 </tr>
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/230/300" alt="Ana López" /></div>
+                        <div className="pic"><img src="../assets/akira.jpg" alt="Akira Toriyama" /></div>
                     </td>
-                    <td>Ana</td>
-                    <td>López</td>
+                    <td>Akira</td>
+                    <td>Toriyama</td>
                     <td>555 789 0123</td>
-                    <td>ana.lopez@example.com</td>
-                    <td>Quito, Ecuador</td>
+                    <td>goku.dragonball@example.com</td>
+                    <td>Nagoya, japón</td>
                 </tr>
                 
                 <tr>
                     <td>
-                        <div className="pic"><img src="http://placekitten.com/g/235/300" alt="Ricardo Hernández" /></div>
+                        <div className="pic"><img src="../assets/hideo.jpg" alt="Hideo Kojima" /></div>
                     </td>
-                    <td>Ricardo</td>
-                    <td>Hernández</td>
+                    <td>Hideo</td>
+                    <td>Kojima</td>
                     <td>555 890 1234</td>
-                    <td>ricardo.hernandez@example.com</td>
-                    <td>San Juan, Puerto Rico</td>
+                    <td>silent.hill@example.com</td>
+                    <td>Tokio, Japoón</td>
                 </tr>
                 
             </thead>
