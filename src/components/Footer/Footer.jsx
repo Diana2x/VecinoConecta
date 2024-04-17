@@ -9,11 +9,11 @@ function Footer() {
             <div className="container">
                     <h3>Developed by CodeNinjas</h3>
                     <div className="social">
-                        <FaFacebook className='icon' />
-                        <FaInstagram className='icon' />
-                        <FaSquareXTwitter className='icon' />
-                        <FaPinterest className='icon' />
-                        <FaYoutube className='icon' />
+                    <a href="https://www.facebook.com"><FaFacebook className='icon' /> </a>
+                    <a href="https://www.instagram.com"><FaInstagram className='icon'/></a>
+                    <a href="https://twitter.com"><FaSquareXTwitter className='icon'/></a>
+                    <a href="https://www.pinterest.com"><FaPinterest className='icon'/></a>
+                    <a href="https://www.youtube.com"><FaYoutube className='icon'/></a>
                     </div>
             </div>
         </div>
