@@ -16,7 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: center;
   height: 10vh;
   width: 100%;
   font-size: 16px;
@@ -50,11 +49,13 @@
   color: white;
   transition: color 0.3s ease;
 }
-.bell{
+
+.bell {
   color: var(--red);
 }
+
 .nav-link:hover {
-  color: greenyellow
+  color: greenyellow;
 }
 
 .nav-icon {
@@ -69,7 +70,52 @@
   width: 130px;
   font-size: 16px;
 }
-.logo-nav p{
+
+.logo-nav p {
   margin-left: 10px;
   text-align: center;
+}
+
+
+.nav-toggle {
+  cursor: pointer;
+  font-size: 24px;
+  color: white; 
+  fill: white;
+}
+
+.nav-toggle.active svg { 
+  fill: var(--greenmedium); 
+}
+.hidden {
+  display: block;
+}
+@media (min-width: 768px) {  
+  .nav-toggle {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--blue);
+    width: 100%;
+  }
+
+  .navbar-nav.active {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: flex;
+    color:white;
+    font-size: 1.5rem;
+  }
 }
