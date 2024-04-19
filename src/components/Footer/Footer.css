@@ -35,7 +35,12 @@
 .footer .icon {
  color: var(--white);
  font-size: large;
+ cursor: pointer;
 }
+.footer .icon:hover {
+  color: #AAFFC7;
+}
+
 
 
 
