@@ -1,8 +1,8 @@
 :root {
-  --greenbackground:  #AAFFC7;
+  --greenyellow:  greenyellow;
   --greenmedium: #5FCC9C;
   --darkgreen: #215B63;
-  --blue: #232855; 
+  --black: #000000; 
   --white: #FFFFFF;
   --red: #FF5A5F;
 }
@@ -10,7 +10,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  background-color: var(--blue);
+  background-color: var(--black);
   padding: 20px 20px;
   color: white;
   display: flex;
@@ -48,17 +48,23 @@
   flex-direction: row;
   text-decoration: none;
   color: white;
-  transition: color 0.3s ease;
+  
 }
 .bell{
-  color: var(--red);
+  color: var(--white);
 }
 .nav-link:hover {
-  color: greenyellow
+  color:var(--greenyellow) ;
+ 
 }
 
 .nav-icon {
   font-size: 1.5rem;
+  transition:  ease-in-out 0.3s;
+}
+.nav-icon:hover {
+  color: greenyellow;
+  transform: scale(1.1);
 }
 
 .logo-nav {

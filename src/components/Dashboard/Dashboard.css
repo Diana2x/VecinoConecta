@@ -1,10 +1,12 @@
 :root {
   --greenbackground:  #AAFFC7;
+  --green: rgb(13, 110, 59);
   --greenmedium: #5FCC9C;
   --darkgreen: #215B63;
   --blue: #232855; 
   --white: #FFFFFF;
   --red: #FF5A5F;
+
 }
 
 .dash {
@@ -13,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--greenbackground);
+    background-color: var(--white);
     
 }
 
@@ -36,15 +38,21 @@
 .dashboard-content h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  color: var(--blue);
+  color: var(--green);
   text-align: center;
 }
 
 .dashboard-content h2 {
   font-size: 30px;
   margin-bottom: 10px;
-  color: var(--blue);
+  color: var(--green);
   text-align: center;
+}
+.dashboard-content h4 {
+  font-size: 25px;
+  color: var(--green);
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .dashboard-content p {
