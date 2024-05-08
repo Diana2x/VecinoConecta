@@ -49,13 +49,18 @@ table {
     
 }
   
- 
 .pic {
     border-radius: 50%;
     overflow: hidden;
     width: 40px;
     height: 40px;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    display: block; 
+    transition: transform 0.5s;
+}
+
+.pic:hover {
+   transform: scale(1.1);
 }
 img {
     width: 40px;

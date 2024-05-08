@@ -14,10 +14,12 @@ const Dashboard = () => {
         <Navbar />
         <div className='dashboard-content'>
           <h1>¡Bienvenido a VecinoConecta!</h1>
-          <p>Gestiona eventos, pagos y calendarios aquí.</p>
+          <p>¡Mantente al día con nuestro foro dónde todos los vecinos pueden aportar sus ideas, inquietudes o incluso organizar eventos, todo en un solo lugar! 
+          Además puedes visitar nuestro directorio para conocer a tus vecinos y contactarlos.
+          </p>
           <img className="img-comunidad" src={imagenComunidad} alt="Imagen de comunidad" />
           <p>¡Descubre todas las funciones que VecinoConecta tiene para ofrecerte!</p>
-          <p>Registra tus eventos comunitarios, realiza pagos de servicios locales y mantente al tanto de todas las actividades en tu vecindario.</p>
+          <p>Registra tus eventos comunitarios y mantente al tanto de todas las actividades en tu vecindario. Con nuestras herramientas, es fácil mantenerse conectado con tus vecinos y participar activamente en la vida de la comunidad.</p>
           <div className="options">
             <h2 className="hacer__heading">¿Qué puedes hacer en VecinoConecta?</h2>
             <div className="actividades__grid">

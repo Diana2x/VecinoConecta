@@ -20,7 +20,7 @@ function Directorio() {
                     <td>Rodríguez</td>
                     <td>555 345 6789</td>
                     <td>maria.rodriguez@example.com</td>
-                    <td>México DF, México</td>
+                    <td>Calle de los Robles #1</td>
                 </tr>
                 
                 <tr>
@@ -31,7 +31,7 @@ function Directorio() {
                     <td>Pérez</td>
                     <td>555 456 7890</td>
                     <td>carlos.perez@example.com</td>
-                    <td>Caracas, Venezuela</td>
+                    <td>Calle del Bosque #2</td>
                 </tr>
                 
                 <tr>
@@ -42,7 +42,7 @@ function Directorio() {
                     <td>Gómez</td>
                     <td>555 567 8901</td>
                     <td>laura.gomez@example.com</td>
-                    <td>Lima, Perú</td>
+                    <td>Calle de los Ahuehuetes #3</td>
                 </tr>
                 
                 <tr>
@@ -53,7 +53,7 @@ function Directorio() {
                     <td>Martínez</td>
                     <td>555 678 9012</td>
                     <td>javier.martinez@example.com</td>
-                    <td>Santiago, Chile</td>
+                    <td>Avenida de las Flores #4</td>
                 </tr>
                 
                 <tr>
@@ -64,7 +64,7 @@ function Directorio() {
                     <td>López</td>
                     <td>555 789 0123</td>
                     <td>ana.lopez@example.com</td>
-                    <td>Quito, Ecuador</td>
+                    <td>Calle de la Montaña #5</td>
                 </tr>
                 
                 <tr>
@@ -75,7 +75,7 @@ function Directorio() {
                     <td>Hernández</td>
                     <td>555 890 1234</td>
                     <td>ricardo.hernandez@example.com</td>
-                    <td>San Juan, Puerto Rico</td>
+                    <td>Calle del Sol #6</td>
                 </tr>
                 
                 <tr>
@@ -86,7 +86,7 @@ function Directorio() {
                     <td>García</td>
                     <td>555 901 2345</td>
                     <td>sofia.garcia@example.com</td>
-                    <td>Bogotá, Colombia</td>
+                    <td>Calle cipres #7</td>
                 </tr>
                 
                 <tr>
@@ -97,7 +97,7 @@ function Directorio() {
                     <td>Fernández</td>
                     <td>555 012 3456</td>
                     <td>alejandro.fernandez@example.com</td>
-                    <td>Montevideo, Uruguay</td>
+                    <td>Calle del Arroyo #8</td>
                 </tr>
                 
                 <tr>
@@ -108,7 +108,7 @@ function Directorio() {
                     <td>Silva</td>
                     <td>555 123 4567</td>
                     <td>gabriela.silva@example.com</td>
-                    <td>Asunción, Paraguay</td>
+                    <td>Avenida del Parque #9</td>
                 </tr>
                 
                 <tr>
@@ -119,7 +119,7 @@ function Directorio() {
                     <td>Castro</td>
                     <td>555 234 5678</td>
                     <td>fernando.castro@example.com</td>
-                    <td>La Paz, Bolivia</td>
+                    <td>Calle del Almendro #10</td>
                 </tr>
                 <tr>
                     <td>
@@ -129,7 +129,7 @@ function Directorio() {
                     <td>Rodríguez</td>
                     <td>555 345 6789</td>
                     <td>maria.rodriguez@example.com</td>
-                    <td>México DF, México</td>
+                    <td>Calle mangle #11</td>
                 </tr>
                 
                 <tr>
@@ -140,7 +140,7 @@ function Directorio() {
                     <td>Pérez</td>
                     <td>555 456 7890</td>
                     <td>carlos.perez@example.com</td>
-                    <td>Caracas, Venezuela</td>
+                    <td>Calle de la Brisa #12</td>
                 </tr>
                 
                 <tr>
@@ -151,7 +151,7 @@ function Directorio() {
                     <td>Gómez</td>
                     <td>555 567 8901</td>
                     <td>laura.gomez@example.com</td>
-                    <td>Lima, Perú</td>
+                    <td>Calle del Pinar #13</td>
                 </tr>
                 
                 <tr>
@@ -162,7 +162,7 @@ function Directorio() {
                     <td>Martínez</td>
                     <td>555 678 9012</td>
                     <td>javier.martinez@example.com</td>
-                    <td>Santiago, Chile</td>
+                    <td>Calle del Laurel #14</td>
                 </tr>
                 
                 <tr>
@@ -173,7 +173,7 @@ function Directorio() {
                     <td>López</td>
                     <td>555 789 0123</td>
                     <td>ana.lopez@example.com</td>
-                    <td>Quito, Ecuador</td>
+                    <td>Calle del Valle #15</td>
                 </tr>
                 
                 <tr>
@@ -184,7 +184,7 @@ function Directorio() {
                     <td>Hernández</td>
                     <td>555 890 1234</td>
                     <td>ricardo.hernandez@example.com</td>
-                    <td>San Juan, Puerto Rico</td>
+                    <td>Avenida del Parque #16</td>
                 </tr>
                 
             </thead>
