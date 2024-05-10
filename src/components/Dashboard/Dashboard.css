@@ -11,12 +11,10 @@
 
 .dash {
     width: 100vw;
-    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--white);
-    
+    background-color: var(--white); 
 }
 
 .img-comunidad{

@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { FaHome, FaUserCheck, FaBell, FaWindowClose } from "react-icons/fa";
+import { FaHome, FaRegUserCircle, FaBell, FaWindowClose } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 import { CiMenuBurger } from "react-icons/ci";
-import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false); 
@@ -27,7 +26,10 @@ const Navbar = () => {
             )}
             <ul className={`navbar-nav ${menuOpen ? 'active' : ''}`}>
                 <li className="nav-item">
-                    <a href="/perfil" className="nav-link bell"> <FaBell className="nav-icon" /> </a>
+                    <a href="/" className="nav-link bell"> <FaBell className="nav-icon" /> </a>
+                </li>
+                <li className="nav-item">
+                    <a href="/" className="nav-link"> <FaMessage className="nav-icon" /> </a>
                 </li>
                 <li className="nav-item">
                     <a href="/home" className="nav-link">Inicio</a>
@@ -42,10 +44,7 @@ const Navbar = () => {
                     <a href="/directorio" className="nav-link">Directorio</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/perfil" className="nav-link"> <FaMessage className="nav-icon" /> </a>
-                </li>
-                <li className="nav-item">
-                    <a href="/perfil" className="nav-link"> <FaUserCheck className="nav-icon" /> </a>
+                    <a href="/perfil" className="nav-link"> <FaRegUserCircle className="nav-icon" /> </a>
                 </li>
             </ul>
         </nav>
