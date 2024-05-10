@@ -24,7 +24,6 @@
 }
 
 .dashboard-content {
-  width: 100%;
   margin: 20px;
   padding: 20px; 
   box-sizing: border-box; 
@@ -34,6 +33,7 @@
   align-items: center;
   overflow: hidden;
 }
+
 .dashboard-content h1 {
   font-size: 36px;
   margin-bottom: 10px;
@@ -48,12 +48,14 @@
   text-align: center;
 }
 
+
 .dashboard-content p {
   font-size: 24px;
   line-height: 1.6;
   margin-bottom: 20px;
   font-weight: 300;
-  text-align: center;
+  text-align: justify;
+  max-width: 1000px;
 }
 
 .dashboard-content img {
@@ -92,6 +94,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.actividad:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .actividad img {
