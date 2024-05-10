@@ -226,3 +226,8 @@
         display: none;
     }
 }
+
+.topic-content:hover{
+    background: rgb(234, 234, 234);
+    cursor: pointer;
+}

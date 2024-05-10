@@ -22,10 +22,10 @@
 .img-comunidad{
   border-radius: 15px;
   width: 50vw;
+  min-width: 500px;
 }
 
 .dashboard-content {
-  width: 100%;
   margin: 20px;
   padding: 20px; 
   box-sizing: border-box; 
@@ -35,6 +35,7 @@
   align-items: center;
   overflow: hidden;
 }
+
 .dashboard-content h1 {
   font-size: 36px;
   margin-bottom: 10px;
@@ -55,12 +56,14 @@
   margin-bottom: 10px;
 }
 
+
 .dashboard-content p {
   font-size: 24px;
   line-height: 1.6;
   margin-bottom: 20px;
   font-weight: 300;
-  text-align: center;
+  text-align: justify;
+  max-width: 1000px;
 }
 
 .dashboard-content img {
@@ -75,11 +78,20 @@
 
 .actividades__grid {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .actividades__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+}
+
 .actividad {
-  width: calc(33.33% - 20px);
   background-color: var(--white);
   border-radius: 8px;
   padding: 20px;
@@ -90,6 +102,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.actividad:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .actividad img {
