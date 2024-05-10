@@ -2,15 +2,14 @@
   --greenbackground:  #AAFFC7;
   --greenmedium: #5FCC9C;
   --darkgreen: #215B63;
-  --blue: #232855; 
+  --black: #000000; 
   --white: #FFFFFF;
   --red: #FF5A5F;
 }
 
 .footer {
   width: 100%;
-  padding: 20px 0;
-  background-color: var(--blue);
+  background-color: var(--black);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -36,9 +35,11 @@
  color: var(--white);
  font-size: large;
  cursor: pointer;
-}
+ transition: ease-in-out 0.3s;
+} 
 .footer .icon:hover {
-  color: #AAFFC7;
+  color: greenyellow;
+  transform: scale(1.2);
 }
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './Dashboard.css';
-import imagenComunidad from '/assets/comunidad.jpeg';
+import imagenComunidad from '/assets/vecinos.jpg';
 import imageJunta from '/assets/junta.jpg';
 import imagesNoticias from '/assets/noticias.jpg';
 import imagesChat from '/assets/chat.jpg';
@@ -18,8 +18,8 @@ const Dashboard = () => {
           Además puedes visitar nuestro directorio para conocer a tus vecinos y contactarlos.
           </p>
           <img className="img-comunidad" src={imagenComunidad} alt="Imagen de comunidad" />
-          <p>¡Descubre todas las funciones que VecinoConecta tiene para ofrecerte!</p>
-          <p>Registra tus eventos comunitarios y mantente al tanto de todas las actividades en tu vecindario. Con nuestras herramientas, es fácil mantenerse conectado con tus vecinos y participar activamente en la vida de la comunidad.</p>
+          <h4>¡Descubre todas las funciones que VecinoConecta tiene para ofrecerte!</h4>
+          <p>Registra tus eventos comunitarios, realiza pagos de servicios locales y mantente al tanto de todas las actividades en tu vecindario.</p>
           <div className="options">
             <h2 className="hacer__heading">¿Qué puedes hacer en VecinoConecta?</h2>
             <div className="actividades__grid">

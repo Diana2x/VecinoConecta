@@ -2,6 +2,7 @@
 :root {
     --greenbackground:  #AAFFC7;
     --greenmedium: #5FCC9C;
+    --verdeOscuro: rgb(13, 110, 59);
     --darkgreen: #215B63;
     --blue: #232855; 
     --white: #FFFFFF;
@@ -19,6 +20,7 @@
     margin: 20px;
 }
 .directorio-contenido h1 {
+    color: var(--verdeOscuro);
     margin-bottom: 20px;
     font-size: 38px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -28,7 +30,7 @@
     font-weight: bold;
 }
 thead tr  {
-    background: var(--blue);
+    background: var(--verdeOscuro);
     color: #ccc;
     padding: 0 0 10px;
     text-align: left;
@@ -43,7 +45,7 @@ td {
 }
 table {
     width: 100%; 
-    background-color: var(--blue);
+    background-color: black;
     
 }
 .pic {
