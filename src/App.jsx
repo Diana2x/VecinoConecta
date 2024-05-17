@@ -7,13 +7,14 @@ import Directorio from './components/Directorio/Directorio';
 import Perfil from './components/Perfil/Perfil';
 
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'; 
 
 function App() {
   return (
     <Router>
       <div className='content'>
         <Routes>
+          <Route path="/*" element={<Navigate to="login" replace />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/home" element={<Dashboard />} />
           <Route path="/foro" element={<Foro />} />
