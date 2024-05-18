@@ -11,7 +11,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 function App() {
   return (
-    <Router>
       <div className='content'>
         <Routes>
           <Route path="/*" element={<Navigate to="login" replace />} />
@@ -23,7 +22,6 @@ function App() {
           <Route path="/perfil" element={<Perfil />} />
         </Routes>
       </div>
-    </Router>
   );
 }
 
