@@ -7,13 +7,14 @@ import Directorio from './components/Directorio/Directorio';
 import Perfil from './components/Perfil/Perfil';
 
 import './App.css';
-import { Routes, Route } from 'react-router-dom'; 
+import { Routes, Route, Navigate } from 'react-router-dom'; 
 
 function App() {
   return (
       <div className='content'>
         <Routes>
-          <Route path="/" element={<LoginForm />} />
+          <Route path="/*" element={<Navigate to="login" replace  />} />
+          <Route path="/login" element={<LoginForm />} />
           <Route path="/home" element={<Dashboard />} />
           <Route path="/foro" element={<Foro />} />
           <Route path="/galeria" element={<Galeria />} />
