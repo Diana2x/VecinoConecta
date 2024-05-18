@@ -3,6 +3,7 @@ import './Navbar.css';
 import { FaHome, FaRegUserCircle, FaBell, FaWindowClose } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 import { CiMenuBurger } from "react-icons/ci";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false); 
@@ -26,25 +27,25 @@ const Navbar = () => {
             )}
             <ul className={`navbar-nav ${menuOpen ? 'active' : ''}`}>
                 <li className="nav-item">
-                    <a href="/" className="nav-link bell"> <FaBell className="nav-icon" /> </a>
+                    <NavLink to="/home" className="nav-link bell"> <FaBell className="nav-icon" /> </NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="/" className="nav-link"> <FaMessage className="nav-icon" /> </a>
+                    <NavLink to="/home" className="nav-link"> <FaMessage className="nav-icon" /> </NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="/home" className="nav-link">Inicio</a>
+                    <NavLink to="/home" className="nav-link">Inicio</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="/foro" className="nav-link">Foro</a>
+                    <NavLink to="/foro" className="nav-link">Foro</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="/galeria" className="nav-link">Galeria</a>
+                    <NavLink to="/galeria" className="nav-link">Galeria</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="/directorio" className="nav-link">Directorio</a>
+                    <NavLink to="/directorio" className="nav-link">Directorio</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="/perfil" className="nav-link"> <FaRegUserCircle className="nav-icon" /> </a>
+                    <NavLink to="/perfil" className="nav-link"> <FaRegUserCircle className="nav-icon" /> </NavLink>
                 </li>
             </ul>
         </nav>
