@@ -4,7 +4,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Foro from './components/Foro/Foro';
 import Galeria from './components/Galeria/Galeria';
 import Directorio from './components/Directorio/Directorio';
-import Perfil from './components/Perfil/Perfil';
+import Perfil from './components/Perfil';
 
 import './App.css';
 import { Routes, Route } from 'react-router-dom'; 
